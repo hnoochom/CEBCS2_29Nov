@@ -145,7 +145,7 @@ public class MainFrangment extends Fragment {
 
                 getActivity().getSupportFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.contentFragmentMain, new RegisterFragment())
+                        .replace(R.id.contentFragmentMain, new RegisterFragment2())
                         .addToBackStack(null)
                         .commit();
 

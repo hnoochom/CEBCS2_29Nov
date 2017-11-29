@@ -60,7 +60,7 @@
                     android:id="@+id/edtIDstudent"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="รหัสนักศึกษา 13 หลัก :"
+                    android:hint="@string/id_student13digi"
                     android:inputType="number"
                     android:textColorHint="@color/yellow" />
             </LinearLayout>
@@ -210,7 +210,7 @@
                     android:id="@+id/edtPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="รหัสผ่าน :"
+                    android:hint="@string/pass1"
                     android:inputType="textPassword"
                     android:textColorHint="@color/yellow" />
             </LinearLayout>
@@ -233,7 +233,7 @@
                     android:id="@+id/edtRePassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="ยืนยันรหัสผ่าน :"
+                    android:hint="@string/pass2"
                     android:inputType="textPassword"
                     android:textColorHint="@color/yellow" />
             </LinearLayout>
