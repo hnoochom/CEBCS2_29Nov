@@ -34,6 +34,7 @@
 
             <!--TextField-->
             <EditText
+                android:id="@+id/edtIDstudent"
                 android:inputType="number"
                 android:hint="@string/id_student13digi"
                 android:layout_width="match_parent"
@@ -57,6 +58,7 @@
 
             <!--TextField-->
             <EditText
+                android:id="@+id/edtPassword"
                 android:inputType="textPassword"
                 android:hint="@string/pass1"
                 android:layout_width="match_parent"
@@ -80,6 +82,7 @@
 
             <!--TextField-->
             <EditText
+                android:id="@+id/edtRePassword"
                 android:inputType="textPassword"
                 android:hint="@string/pass2"
                 android:layout_width="match_parent"
@@ -89,6 +92,7 @@
         </LinearLayout>
 
         <Button
+            android:id="@+id/btnSave"
             android:text="@string/register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
